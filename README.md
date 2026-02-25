@@ -19,6 +19,8 @@ Any Honda engine with chipped OBD1 ECU with eCtune or Honda Tuning Suite (ISRv3 
   - Automatic NVS (Non-Volatile Storage) updates for persistent settings.
 - **Visuals:** 1.9" 170x320 SPI Display (ST7789) for real-time gauge rendering and changing basis settings.
 
+A detailed explanation of the settings.txt file on the SD Card kan be found here: https://github.com/RoadXY/Honda_OBD1_dash/blob/main/settings.md
+
 ## 📁 Repository Structure
 - `/src`: ESP32 Source code (C++ / Arduino)
 - `/docs`: Wiring diagrams and ECU protocol details.
