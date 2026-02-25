@@ -39,3 +39,41 @@
 
 # debug information files
 *.dwo
+
+# Arduino/ESP32 binaries
+*.hex
+*.elf
+*.bin
+
+# --- PlatformIO / VSCode specifieke bestanden ---
+.pio/                # Alle gecompileerde bestanden en gedownloade libraries
+.vscode/             # Lokale VSCode instellingen (bevat vaak paden naar je eigen PC)
+.clang_complete
+.gcc-flags.json
+.gdbinit
+.pykeeylog
+
+# --- Arduino / ESP32 Binaries ---
+*.spec
+*.bin
+*.elf
+*.hex
+
+# --- Project Specifieke Bestanden ---
+settings.txt
+settings.old
+*.log
+*.csv
+
+# --- Python (vaak gebruikt door PIO tools) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- OS specifieke rommel ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
