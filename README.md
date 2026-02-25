@@ -1,16 +1,12 @@
-# Honda Civic 4th Gen (EF) - Smart Dashboard & Data Logger
+# Honda OBD1 - Smart Dashboard & Data Logger
 
-An ESP32-based intelligent dashboard and data logger for a 1991 Honda Civic with a modified D16A6 turbo engine.
+An ESP32-based intelligent dashboard and data logger for a Honda engines using chipped OBD1 ECU (P06, P28, P30, P72 etc) making use of the eCtune/HTS ISRv3 datalogging protocol.
 
 ## 🚗 Project Overview
 This project serves as a bridge between a classic Honda OBD1 ECU and modern IoT capabilities. It provides real-time engine monitoring, automatic data logging to SD-card, and wireless battery health monitoring.
 
 ### Vehicle Specifications:
-Any Honda engine with chipped OBD1 ECU with eCtune or Honda Tuning Suite
-
-### Braking System (Integrated Service Tracker):
-- **Front:** 280mm Alcon two-piece discs, Ferodo DS2500 pads, NSX dual-piston calipers.
-- **Rear:** 260mm discs, Ferodo DS2500 pads, Integra Type R calipers.
+Any Honda engine with chipped OBD1 ECU with eCtune or Honda Tuning Suite (ISRv3 protocol)
 
 ## 🛠 Features
 - **Live Datalogging:** Direct TTL Serial communication with the P06 ECU using the Honda Tuning Suite protocol (38400 Baud).
